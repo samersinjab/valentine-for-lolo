@@ -1,0 +1,30 @@
+# Cat Photos Directory
+
+This directory is for your personal cat photos (optional).
+
+## How to Add Your Photos:
+
+1. Add 3-4 cat photos in JPEG or PNG format
+2. Recommended names:
+   - your-photo-1.jpg (pleading/cute cat)
+   - your-photo-2.jpg (sad cat)
+   - your-photo-3.jpg (happy cat)
+   - your-photo-4.jpg (loving cat)
+
+3. Optimize your photos:
+   - Recommended size: 500x500px
+   - File size: < 500KB each
+   - Use tools like TinyPNG or Squoosh to compress
+
+4. Update script.js with your photo paths:
+   ```javascript
+   catImages: {
+       pleading: 'assets/cats/your-photo-1.jpg',
+       sad: 'assets/cats/your-photo-2.jpg',
+       happy: 'assets/cats/your-photo-3.jpg',
+       love: 'assets/cats/your-photo-4.jpg'
+   }
+   ```
+
+## Current Configuration:
+The website currently uses romantic cat GIFs from Giphy CDN. Personal photos are optional but add a personal touch!

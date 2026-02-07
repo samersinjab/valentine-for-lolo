@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A special Valentine's Day question for Lolo">
+    <meta property="og:title" content="Lolo, will you be my Valentine?">
+    <meta property="og:description" content="A playful and romantic Valentine's Day proposal">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Lolo, will you be my Valentine?">
+    <meta name="twitter:description" content="A playful and romantic Valentine's Day proposal">
+
+    <title>Lolo, will you be my Valentine? 💕</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💕</text></svg>">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Particle container for background effects -->
+    <div id="particles-container"></div>
+
+    <!-- Main content container -->
+    <div class="container">
+        <!-- Music control button -->
+        <button id="music-toggle" class="music-toggle" aria-label="Toggle music">
+            <span class="music-icon">🎵</span>
+        </button>
+
+        <!-- Cat image display -->
+        <div class="cat-container">
+            <div id="cat-image" class="cat-emoji">😺</div>
+        </div>
+
+        <!-- Main question card -->
+        <div class="question-card">
+            <h1 class="question-text" id="question-text">
+                Lolo, will you be my Valentine? 💕
+            </h1>
+
+            <!-- Persuasive message that changes when hovering No -->
+            <p class="persuasive-message" id="persuasive-message"></p>
+
+            <!-- Button container -->
+            <div class="buttons-container" id="buttons-container">
+                <button class="btn btn-yes" id="yes-btn">
+                    Yes! 💖
+                </button>
+                <button class="btn btn-no" id="no-btn">
+                    No 😢
+                </button>
+            </div>
+        </div>
+
+        <!-- Success celebration screen (hidden initially) -->
+        <div class="celebration-container hidden" id="celebration">
+            <div class="celebration-content">
+                <h1 class="celebration-title">Lolo said Yes! 🎉💕</h1>
+                <p class="celebration-message">You just made me the happiest person ever!</p>
+
+                <!-- Celebration cat emoji -->
+                <div class="celebration-cat">
+                    <div class="cat-emoji celebration-cat-emoji">😻</div>
+                </div>
+
+                <div class="date-ideas">
+                    <h2>Let's plan our perfect date! ✨</h2>
+                    <ul>
+                        <li>🍕 Cozy dinner at your favorite restaurant</li>
+                        <li>🎬 Movie night with all the snacks</li>
+                        <li>🌅 Sunset walk with endless conversations</li>
+                        <li>🎨 Whatever adventure you choose!</li>
+                    </ul>
+                </div>
+
+                <p class="love-message">
+                    Thank you for being amazing, Lolo. This Valentine's Day is special because of you. 💝
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Background music (auto-play handled by JavaScript for browser compatibility) -->
+    <audio id="background-music" loop>
+        <source src="assets/music/background-music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>

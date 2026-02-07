@@ -1,0 +1,15 @@
+# Particles Directory
+
+This directory is reserved for particle effect assets if needed.
+
+Currently, the website uses:
+- CSS-based particle animations
+- Emoji particles (hearts, sparkles) rendered dynamically
+- No external assets required
+
+This directory can be used for:
+- Custom particle sprites
+- SVG animations
+- Additional visual effects
+
+Note: The current implementation doesn't require any files in this directory.
